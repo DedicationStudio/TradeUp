@@ -16,10 +16,9 @@ L'app si propone di insegnare le basi e i concetti avanzati del trading attraver
 ---
 
 ### 🔹 **Fase 1 – Onboarding iniziale e registrazione**
+Vengono fatte delle domande per capire come posizionare meglio l'utente nel percorso di studio, Questo livello guiderà il tipo di esercizi e la difficoltà dei primi contenuti mostrati.
 
-L’utente inizia il percorso con un **quiz di ingresso**, pensato per capire il suo livello iniziale di conoscenza sul trading. Questo livello guiderà il tipo di esercizi e la difficoltà dei primi contenuti mostrati.
-
-Terminato il quiz, l’utente procede alla registrazione, fornendo:
+Dunque l’utente procede alla registrazione, fornendo:
 
 - Username
 - Email
@@ -61,7 +60,7 @@ Ogni corso contiene:
 Al momento sono previste due tipologie di esercizio:
 
 1. **Quiz a scelta multipla**: domanda + 3 (o più) opzioni
-2. **Grafico di trading**: l’utente deve decidere se entrare *long* o *short*
+2. **Grafico di trading**: l’utente deve decidere se entrare *long* o *short* e distinguere pattern nel mercato
 
 Ogni esercizio può contenere **testo, immagini o entrambi**, ed è salvato in una forma flessibile, così da permettere facilmente l’introduzione di nuove tipologie in futuro. Ogni esercizio include:
 
@@ -77,6 +76,7 @@ Se l’utente sbaglia, perde una **vita**. Le vite si rigenerano col tempo. Quan
 - Ripetere esercizi già fatti (in fase iniziale)
 - Comprare vite tramite monete
 
+nella versione attuale invece l'utente  può sbagliare un totale di 5 volte prima di fallire il livello, ogni livello ha una forma di progresso quindi per concluderlo devi ripeterlo 3 volte e nel caso in cui la maggior parte delle volte si sbaglia l'utente è costretto a ricominciare da capo tutto il livello
 ---
 
 ### 🔹 **Fase 5 – Personalizzazione e sistema adattivo**
@@ -91,12 +91,15 @@ Ogni utente ha un **profilo** che contiene:
 - Giorni consecutivi di attività (streak)
 - Un indicatore interno di **performance**, usato per regolare la difficoltà degli esercizi
 
+--- sviluppi futuri ---
+
 L’app assegna all’utente una **classifica ristretta e personalizzata** da 15 a 30 persone, in base a:
 
 - Punteggio
 - Livello
 - Contatti telefonici con altri utenti presenti
 - Amici in comune
+
 
 ---
 
