@@ -1,0 +1,129 @@
+:host{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.logo{
+    font-family: "Nova Mono", monospace;
+}
+
+.header{
+    font-family: "Nova Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 32px;
+    padding: 1% 2%;
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    top: 0;
+}
+
+
+.subscribe{
+    font-family: "Nova Mono", monospace;
+    font-size: 20px;
+}
+
+.bar-section{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 2% 20%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.progress{
+    background-color: #37464F;
+    border-radius: 100px;
+    width: 90%;
+    height: 15px;
+}
+
+.progress-bar{
+    background-color: #93D333;
+    border-radius: 100px;
+}
+
+.cross{
+    background-image: url(../../assets/image/df223d5b9feb8017b323ed21103eb5ac.svg);
+    height: 20px;
+    width: 20px;
+}
+
+.image{
+    
+    image-rendering: auto;
+    background-size: cover;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0.7% 12.5% 0;
+}
+
+.component{
+    height: 75%;
+}
+
+.continue{
+    background-color: #202F36;
+    width: 11%;
+    padding: 0.8% 3%;
+    margin: 0 0 0 65.5%;
+    font-size: 24px;
+    font-weight: 700;
+    border: 0;
+    -webkit-user-select: none;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+}
+
+.clicked{
+    background-color: #52656D;
+}
+
+
+@media (max-width: 430px) {
+    .bar-section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 2% 0%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo{
+        display: none;
+    }
+
+        .continue{
+            background-color: #202F36;
+    width: 45%;
+    padding: 1.8% 3% 0.8%;
+    margin: 0 0 0 26.5%;
+    font-size: 24px;
+    font-weight: 700;
+    border: 0;
+    -webkit-user-select: none;
+    user-select: none;
+    display: flex
+;
+    justify-content: center;
+    }
+
+    .main{
+        margin: 4.7% 12.5% 0;
+    }
+}

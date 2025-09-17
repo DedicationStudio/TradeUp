@@ -1,0 +1,20 @@
+<!--<canvas riv="option"  width="500" height="500" class="animation" >
+    <riv-state-machine name="State Machine 1" play>
+        <riv-input name="start" [value]="true"></riv-input>
+    </riv-state-machine>
+  </canvas>-->
+
+<!--option attualmente non funziona perchè su rive non è stato ancora implementato viewModel
+quindi l'unica soluzione momentanea è quella di prendere quando clicca un pulsante, testo e quant'altro 
+e ogni volta che clicca viene mostrato o tolto il punto... peccato-->
+<div class="background">
+
+  <div class="title">{{single.title}}</div>
+  <div class="lession">Lession {{start}}/{{single.total}}</div>
+  <a class="button" [routerLink]="'/exercise/' + single.id + '/' + single.tag + '/' + idUser" (click)="resetPhase()">START</a>
+  <div class="progress-bar" [style.grid-template-columns]="gridTemplateColumns">
+    @for (item of phase; track $index) {
+        <div class="bar" [ngClass]="{'correct': item==='success', 'wrong': item==='failed'}"></div>
+    }
+</div>
+</div>

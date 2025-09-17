@@ -1,0 +1,126 @@
+:host{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 5% 0 0;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 2% 0;
+}
+
+.age{
+    width: 20%;
+    padding: 0.7% 2% 0.6%;
+    background-color: #202F36;
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+
+.selected {
+  outline: none; /* rimuove il bordo blu tipico dei browser */
+  border: none;  /* opzionale, se vuoi anche togliere il bordo normale */
+  box-shadow: none; /* rimuove eventuali ombre di focus */
+  background-color: #37464F;
+}
+
+.age:focus {
+  outline: none; /* rimuove il bordo blu tipico dei browser */
+  border: none;  /* opzionale, se vuoi anche togliere il bordo normale */
+  box-shadow: none; /* rimuove eventuali ombre di focus */
+  background-color: #37464F;
+}
+
+.age::-webkit-outer-spin-button,
+.age::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.age::placeholder {
+  color: #e0e0e0;          /* colore grigio */
+  font-weight: 600;
+}
+
+.text{
+    font-weight: 600;
+    margin: 1% 40%;
+    font-size: 18px;
+}
+
+.link{
+    font-style: none;
+    text-decoration: none;
+    color: #49C0F8;
+}
+
+.next{
+    width: 20%;
+    background-color: #202F36;
+    padding: 0.7% 0 0.6%;
+    display: flex;
+    justify-content: center;
+    margin: 3% 0 0;
+    font-weight: 700;
+    user-select: none;
+}
+
+.center{
+    font-size: 15px;
+    text-align: center;
+    margin: 1% 40% 0;
+    color: #4A5E61;
+    font-weight: 500;
+}
+
+.bolder{
+    font-weight: 900;
+    color: #4A5E61;
+        font-size: 15px;
+
+}
+
+.available{
+    background-color: #202F36;
+}
+
+.available:hover{
+    cursor: pointer;
+}
+
+a{
+    color: #4A5E61;
+    text-decoration: none;
+}
+
+
+@media (max-width: 430px) {
+    .text{
+        margin: 4% 10%;
+    }
+
+    .age, .next{
+        width: 80%;
+    padding: 2.7% 6% 1.6%;
+    background-color: #202F36;
+    border: 0;
+    display: flex
+;
+    align-items: center;
+    }
+
+    .center{
+        font-size: 15px;
+    text-align: center;
+    margin: 4% 10% 0;
+    color: #4A5E61;
+    font-weight: 500;
+    }
+
+    :host{
+        margin: 40% 0;
+    }
+}

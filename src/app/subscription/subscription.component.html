@@ -1,0 +1,23 @@
+<div class="title">Create your Account</div>
+
+<input type="text" class="input" [ngClass]="{'selected': name!=null}" placeholder="Name" maxlength="99" [(ngModel)]="name" (input)="onSubscription()">
+<input type="email" class="input" [ngClass]="{'selected': email!=null}" placeholder="Email" maxlength="99" [(ngModel)]="email" (input)="onSubscription()">
+<div class="row">
+    <input [type]="showPassword ? 'text' : 'password'" class="password" [ngClass]="{'selected': password!=null}" placeholder="Password" maxlength="99" [(ngModel)]="password" (input)="onSubscription()">
+    <span class="material-symbols-outlined" (click)="viewing()">{{view}}</span>
+</div>
+
+
+<div class="next" [ngClass]="{'available': avaiable}" (click)="next()">CREATE ACCOUNT</div>
+<!--<div class="row division">
+    <div class="line"></div>
+    <div class="separetor">OR</div>
+    <div class="line"></div>
+</div>
+
+<div class="row google" (click)="loginWithGoogle()">
+    <div class="image"></div>
+</div>-->
+
+<div class="center">By singing in to Trade Up, you agree to our <span class="bolder"><a href="../../assets/privacy/Terms of Service.pdf">Terms</a> and <a href="../../assets/privacy/Privacy Policy.pdf">Privacy Policy</a></span>.</div>
+<div class="center">This site is protected by <span class="bolder">reCAPTCHA</span> and the <a href="https://policies.google.com/privacy"><span class="bolder">Google Privacy Policy</span> and the <span class="bolder">Terms of Service</span></a> apply</div>

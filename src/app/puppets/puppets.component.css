@@ -1,0 +1,17 @@
+:host{
+    margin:  0 25%;
+}
+
+.animation{
+    width: 225px;
+}
+
+@media (max-width: 768px) {
+    :host{
+        margin: 5% 0 0;
+    }
+
+    .animation{
+        width: 43%;
+    }
+  }

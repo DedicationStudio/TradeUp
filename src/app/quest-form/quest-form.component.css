@@ -1,0 +1,166 @@
+:host{
+    display: flex;
+    flex-direction: column;
+}
+
+.bar-section{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 2% 20%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.progress{
+    background-color: #37464F;
+    border-radius: 100px;
+    width: 90%;
+    height: 15px;
+}
+
+.progress-bar{
+    background-color: #93D333;
+    border-radius: 100px;
+}
+
+.image{
+    
+    image-rendering: auto;
+    background-size: cover;
+    
+}
+
+.cross{
+    background-image: url(../../assets/image/df223d5b9feb8017b323ed21103eb5ac.svg);
+    height: 20px;
+    width: 20px;
+}
+
+.heart{
+    background-image: url(../../assets/image/7631e3ee734dd4fe7792626b59457fa4.svg);
+    height: 30px;
+    width: 30px;
+}
+
+.lost-heart{
+    background-image: url(../../assets/image/2bd002fdb11664f869ead7bb84a2fc15.svg);
+    height: 30px;
+    width: 30px;
+}
+
+.healt{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.healtPoint{
+    color: #ff4b4b;
+    font-size: 20px;
+    height: 30px;
+    font-weight: 600;
+    margin: 2px 0 0 6px;
+}
+
+.lost-healtPoint{
+    color: #52656D;
+    font-size: 20px;
+    height: 30px;
+    font-weight: 600;
+    margin: 2px 0 0 6px;
+
+}
+
+.cripto{
+    background-color: #222222;
+    margin: 0 25%;
+    padding: 0.2% 0.5% 0;
+    border-bottom: 0.5px solid #2B2B43;
+    color: #cfcbdb;
+    font-weight: 300;
+}
+
+.continue{
+    background-color: #202F36;
+    width: 10%;
+    padding: 0.8% 3%;
+    margin: 0 25% 0;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    user-select: none;
+}
+
+.clicked{
+    background-color: #52656D;
+}
+
+.question{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.money{
+    position: absolute;
+    margin: 2% 3%;
+    right: 0;
+    font-weight: 600;
+    font-size: 24px;
+    color: #93D333;
+}
+
+
+@media (max-width: 768px) {
+    .bar-section{
+        width: 85%;
+        margin: 2% 6%;
+    }
+    
+    .progress{
+        width: 70%;
+    }
+    
+    .cripto{
+        margin: 0 5%;
+        padding: 0.2% 2.5% 0;
+    }
+}
+@media (max-width: 430px) {
+    .continue{
+        background-color: #202F36;
+        width: 50%;
+        padding: 2.8% 3%;
+        font-size: 20px;
+        font-weight: 600;
+        border: 0;
+        -webkit-user-select: none;
+        user-select: none;
+        display: flex
+;
+        justify-content: center;
+        position: absolute;
+        bottom: 10%;
+    }
+
+    .cripto{
+        background-color: #22222200;
+    margin: 0 25%;
+    padding: 0.2% 0.5% 0;
+    border-bottom: 0.5px solid #2b2b4300;
+    color: #cfcbdb;
+    font-weight: 300;
+    }
+
+    .bar-section{
+        margin: 2.4% 3%;
+        width: 73%;
+    }
+
+    .progress{
+        width: 65%;
+    }
+}

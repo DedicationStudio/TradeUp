@@ -1,0 +1,42 @@
+@if (loading) {
+    <app-loading></app-loading>
+}@else {
+
+<div class="money">
+    {{money}}$
+</div>
+
+<div class="bar-section">
+    <a class="image cross" [routerLink]="['/learn', idUser]">
+        
+    </a>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" [style.width.%]="progress"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="healt">
+        <div class="image" [ngClass]="{'heart': health>0, 'lost-heart': health==0}"></div>
+        <div [ngClass]="{'healtPoint': health>0, 'lost-healtPoint': health==0}">{{health}}</div>
+
+    </div>
+
+</div>
+<app-explanation [text]="explanation"></app-explanation>
+@if (type === "chart") {
+    <div class="cripto">{{symbol}}</div>
+    <app-quest-graph [data]="candles"></app-quest-graph>
+    <app-quest-answer (answer)="answerRecived($event)"></app-quest-answer>
+}@else {
+    @for (option of options; track $index) {
+        <app-quest-option [text]="option[0]" [check]="check[$index]" [correct]="correct[$index]" (click)="checked($index)"></app-quest-option>
+    }
+
+    <div class="continue"  [ngClass]="{clicked: click}"
+    (mousedown)="holding()" 
+    (mouseup)="notHolding()" 
+    (mouseleave)="notHolding()">continue</div>
+}
+@if(motion != 0){
+
+    <div class="question"><app-next-quest [answer]="motion" (continue)="continue($event)" [title]="title" [description]="description" [short]="short"></app-next-quest></div>
+}
+}

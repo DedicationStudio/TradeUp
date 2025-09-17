@@ -1,0 +1,16 @@
+
+
+<div class="text">What would you like to focus on the Most?</div>
+
+<div class="boxes">
+    @for (category of categorys; track $index) {
+        <div class="box" (click)="categoryOutput(category.name, $index)" [ngClass]="{'focus': selected == $index && category.name=='Crypto'}">
+            <div class="image settings" [style.backgroundImage]="'url(' + category.url_image + ')'"
+></div>
+            <div>
+                <div class="category">{{category.name}}</div>
+                <div class="status">{{category.status}}</div>
+            </div>
+        </div>
+    }
+</div>

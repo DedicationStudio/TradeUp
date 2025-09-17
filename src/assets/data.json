@@ -1,0 +1,143 @@
+[
+    {
+      "symbol": "BTCUSD",
+      "start": "2025-04-07T12:20:00Z",
+      "end": "2025-04-07T15:50:00Z",
+      "result": "2025-04-07T16:15:00Z",
+      "answer": "sell"
+    },
+    {
+      "symbol": "BTCUSD",
+      "start": "2025-04-07T05:00:00Z",
+      "end": "2025-04-07T08:25:00Z",
+      "result": "2025-04-07T09:00:00Z",
+      "answer": "buy"
+    },
+    {
+      "symbol": "BTCUSD",
+      "start": "2025-04-02T17:45:00Z",
+      "end": "2025-04-02T22:25:00Z",
+      "result": "2025-04-03T02:00:00Z",
+      "answer": "buy"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-04-07T01:20:00Z",
+      "end": "2025-04-07T08:15:00Z",
+      "result": "2025-04-07T08:50:00Z",
+      "answer": "buy"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-04-07T03:30:00Z",
+      "end": "2025-04-07T09:15:00Z",
+      "result": "2025-04-07T12:30:00Z",
+      "answer": "sell"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-04-07T08:55:00Z",
+      "end": "2025-04-07T14:25:00Z",
+      "result": "2025-04-07T16:15:00Z",
+      "answer": "sell"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-04-06T14:00:00Z",
+      "end": "2025-04-06T20:05:00Z",
+      "result": "2025-04-06T21:45:00Z",
+      "answer": "buy"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-04-04T07:45:00Z",
+      "end": "2025-04-04T15:00:00Z",
+      "result": "2025-04-04T17:10:00Z",
+      "answer": "sell"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-04-03T06:25:00Z",
+      "end": "2025-04-03T13:50:00Z",
+      "result": "2025-04-03T14:40:00Z",
+      "answer": "buy"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-04-03T09:45:00Z",
+      "end": "2025-04-03T15:00:00Z",
+      "result": "2025-04-03T18:10:00Z",
+      "answer": "sell"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-04-02T11:35:00Z",
+      "end": "2025-04-02T17:05:00Z",
+      "result": "2025-04-02T18:10:00Z",
+      "answer": "sell"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-04-02T13:15:00Z",
+      "end": "2025-04-02T18:30:00Z",
+      "result": "2025-04-02T19:50:00Z",
+      "answer": "buy"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-04-02T19:25:00Z",
+      "end": "2025-04-03T01:10:00Z",
+      "result": "2025-04-03T05:25:00Z",
+      "answer": "buy"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-03-29T03:40:00Z",
+      "end": "2025-03-29T11:20:00Z",
+      "result": "2025-03-29T12:20:00Z",
+      "answer": "buy"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-03-26T22:00:00Z",
+      "end": "2025-03-27T02:00:00Z",
+      "result": "2025-03-27T05:25:00Z",
+      "answer": "buy"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-03-22T19:00:00Z",
+      "end": "2025-03-23T02:00:00Z",
+      "result": "2025-03-23T05:05:00Z",
+      "answer": "buy"
+    },
+    {
+      "symbol": "WUSDT",
+      "start": "2025-03-23T06:10:00Z",
+      "end": "2025-03-23T11:55:00Z",
+      "result": "2025-03-23T16:55:00Z",
+      "answer": "buy"
+    },
+    {
+      "symbol": "FORTHUSDT",
+      "start": "2025-04-08T12:55:00Z",
+      "end": "2025-04-08T17:05:00Z",
+      "result": "2025-04-08T18:05:00Z",
+      "answer": "sell"
+    },
+    {
+      "symbol": "FORTHUSDT",
+      "start": "2025-04-06T09:30:00Z",
+      "end": "2025-04-06T18:15:00Z",
+      "result": "2025-04-06T18:45:00Z",
+      "answer": "sell"
+    },
+    {
+      "symbol": "FORTHUSDT",
+      "start": "2025-04-06T12:00:00Z",
+      "end": "2025-04-06T19:45:00Z",
+      "result": "2025-04-06T22:35:00Z",
+      "answer": "buy"
+    }
+  ]
+  

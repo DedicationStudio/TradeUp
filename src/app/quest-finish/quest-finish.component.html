@@ -1,0 +1,13 @@
+<div class="title">Congratulations, you have finished your excercise</div>
+
+<canvas riv="continue"  [width]="width" [height]="height" class="why" 
+                (mousedown)="pressed_why()" 
+                (mouseup)="released_why()" 
+                (mouseleave)="released_why()"
+                (touchstart)="pressed_why()" 
+                (touchend)="released_why()" 
+                (touchcancel)="released_why()">
+                  <riv-state-machine name="State Machine 1" play>
+                      <riv-input name="pushing" [value]="pushing_why"></riv-input>
+                  </riv-state-machine>
+                </canvas>

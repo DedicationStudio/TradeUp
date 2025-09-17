@@ -1,0 +1,17 @@
+
+
+<div class="text">What can you Achive</div>
+
+<div class="boxes">
+    @for (data of from; track $index) {
+        <div class="box">
+            <div class="image settings" [style.backgroundImage]="'url(' + data.url + ')'"
+></div>
+            <div>
+                <div class="category">{{data.title}}</div>
+                <div class="status">{{data.status}}</div>
+
+            </div>
+        </div>
+    }
+</div>

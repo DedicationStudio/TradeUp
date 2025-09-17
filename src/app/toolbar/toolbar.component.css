@@ -1,0 +1,63 @@
+:host{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #586771;
+    width: 100%;
+    height: 100%;
+    background-color: #131F24;
+}
+
+
+
+.logo{
+    font-family: "Nova Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 32px;
+    margin: 8% 0 15% 15%;
+}
+
+.text{
+    font-weight:900;
+    font-size: 16px;
+    margin: 0 0 0 10%;
+}
+
+.text:hover{
+    cursor: pointer;
+}
+
+.unfocused{
+    color: #848E9C;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10% 0 0 15%;
+}
+
+@media (max-width: 430px) {
+  .logo{
+    display: none;
+  }
+
+  .text{
+    display: none;
+  }
+
+  :host{
+    flex-direction: row;
+        justify-content: space-evenly;
+    border-top: #586771 2px solid;
+    height: 10%;
+    position: fixed;
+    border-right: 0;
+    bottom: 0;
+  }
+  .menu{
+    margin: 5% 0 5%;
+  }
+}

@@ -1,0 +1,15 @@
+
+
+<div class="text">How much do you know about Crypto</div>
+
+<div class="boxes">
+    @for (data of from; track $index) {
+        <div class="box" (click)="categoryOutput(data.title, $index)" [ngClass]="{'focus': selected==$index}">
+            <div class="image settings" [style.backgroundImage]="'url(' + data.url + ')'"
+></div>
+            <div>
+                <div class="category">{{data.title}}</div>
+            </div>
+        </div>
+    }
+</div>

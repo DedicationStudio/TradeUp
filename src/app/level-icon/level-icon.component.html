@@ -1,0 +1,17 @@
+<div class="level" (click)="click()">
+    <div class="block" [style.background]="single.color">
+        <span class="material-symbols-outlined">{{single.icon}}</span>
+    </div>
+            
+    <div class="progress-bar" [style.grid-template-columns]="gridTemplateColumns">
+        @for (item of phase; track $index) {
+            <div class="bar" [ngClass]="{'correct': item==='success', 'wrong': item==='failed'}"></div>
+        }
+    </div>
+            
+    <div class="title">{{single.title}}</div>
+</div>
+
+@if(pressed && state != "not available"){
+<app-start-lvl [single]="single" [idUser]="idUser"></app-start-lvl>
+}

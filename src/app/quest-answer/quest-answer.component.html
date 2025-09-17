@@ -1,0 +1,23 @@
+<canvas riv="redbtn"  width="300" height="150" class="animation"
+(mousedown)="pressed(0)" 
+  (mouseup)="released(0)" 
+  (mouseleave)="released(0)"
+  (touchstart)="pressed(0)" 
+  (touchend)="released(0)" 
+  (touchcancel)="released(0)">>
+    <riv-state-machine name="State Machine 1" play>
+        <riv-input name="pushing" [value]="pushing[0]"></riv-input>
+    </riv-state-machine>
+  </canvas>
+
+  <canvas riv="greenbtn"  width="300" height="150" class="animation"
+  (mousedown)="pressed(1)" 
+  (mouseup)="released(1)" 
+  (mouseleave)="released(1)"
+  (touchstart)="pressed(1)" 
+  (touchend)="released(1)" 
+  (touchcancel)="released(1)">
+    <riv-state-machine name="State Machine 1" play>
+        <riv-input name="pushing" [value]="pushing[1]"></riv-input>
+    </riv-state-machine>
+  </canvas>

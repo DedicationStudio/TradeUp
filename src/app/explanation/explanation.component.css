@@ -1,0 +1,24 @@
+.block{
+    background-color: #202F36;
+    width: 50%;
+    margin: 6% 25% 1.5%;
+    height: 100%;
+    padding: 1.1%;
+    font-weight: 600;
+}
+
+:host{
+    height: 10%;
+}
+
+@media (max-width: 430px) {
+.block{
+    background-color: #202F36;
+    width: 100%;
+    margin: 29% 0% 1.5%;
+    height: 100%;
+    padding: 4.1%;
+    font-weight: 600;
+    font-size: 20px;
+}
+}

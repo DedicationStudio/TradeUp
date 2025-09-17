@@ -1,0 +1,81 @@
+.background{
+    background-image: url("../../assets/image/popUp.png");
+    width: 240px;
+    height: 171px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    padding: 13% 12% 0;
+    
+}
+
+:host>*{
+    color: #848E9C;
+    
+}
+
+:host{
+    position: absolute;
+    margin: 5% 0 0 0.5%;
+
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 900;
+    color: #848E9C;
+}
+
+.lession{
+    font-size: 12px;
+    font-weight: 900;
+    color: #848E9C;
+}
+
+.button{
+    width: 100%;
+    margin: 5% 0 3%;
+    height: 24%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+    background-color: #FFFFFF;
+    color: #848E9C;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.button:hover{
+    cursor: pointer
+}
+
+.progress-bar{
+    width: 100%;
+    border-radius: 0;
+    height: 7px;
+    background-color: #37464F;
+    margin: 7px 0 0;
+    display: grid;
+}
+
+.bar{
+    height: 100%;
+    border-radius: 0;
+    width: 100%;
+}
+
+.correct{
+    background-color: #72D627;
+}
+
+.wrong{
+    background-color: #ff5555;
+}
+
+@media (max-width: 430px) {
+    :host{
+        position: absolute;
+        margin: 18% 0 0 0.5%;
+    }
+}

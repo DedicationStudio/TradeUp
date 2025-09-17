@@ -1,0 +1,24 @@
+<div class="logo">
+    Trade Up
+</div>
+
+<div class="menu">
+    <span class="material-symbols-outlined">wb_shade</span>
+    <div class="text" [ngClass]="{'unfocused': !clicked['learn']}" (click)="focus('learn')">LEARN</div>
+</div>
+<div class="menu">
+    <span class="material-symbols-outlined"><!--award_star-->lock</span>
+    <div class="text" [ngClass]="{'unfocused': !clicked['leaderboard']}" (click)="focus('leaderboard')">LEADERBOARD</div>
+</div>
+<div class="menu">
+    <span class="material-symbols-outlined"><!--strategy-->lock</span>
+    <div class="text" [ngClass]="{'unfocused': !clicked['quests']}" (click)="focus('quests')">QUESTS</div>
+</div>
+<div class="menu">
+    <span class="material-symbols-outlined"><!--person-->lock</span>
+    <div class="text" [ngClass]="{'unfocused': !clicked['account']}" (click)="focus('account')">ACCOUNT</div>
+</div>
+<div class="menu">
+    <span class="material-symbols-outlined"><!--newspaper-->lock</span>
+    <div class="text" [ngClass]="{'unfocused': !clicked['news']}" (click)="focus('news')">NEWS</div>
+</div>

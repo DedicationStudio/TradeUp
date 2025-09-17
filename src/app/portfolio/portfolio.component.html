@@ -1,0 +1,106 @@
+<div class="fixed">
+    <div class="logo" routerLink="/subscribe">Trade Up</div>
+    <div class="options">
+        <div class="text nova-mono" routerLink="/log-in">Log In</div>
+        <div class="text nova-mono" routerLink="/subscribe">Log Up</div>
+    </div>
+
+</div>
+<div class="main">
+    <div #chartContainer class="chart-container"></div>
+    <div class="textInfo">
+        <div class="title" style="height: 55%;">
+            <span class="nova-mono" #Title></span>
+
+        </div>
+        <div class="description nova-mono responsive">LEARN 15 MINUTES A DAY TO IMPROVE YOUR ABILITY DAY AFTER DAY</div>
+    </div>
+</div>
+
+<div class="row">
+    <span class="box1">
+        <div class="icon crypto" [routerLink]="'/subscribe'"></div>
+        <div class="icon setting" [routerLink]="'/subscribe'"></div>
+        <div class="icon setting" [routerLink]="'/subscribe'"></div>
+    </span>
+    <span class="box2">
+        <a class="icon trading-view" href="https://it.tradingview.com/"></a>
+        <a class="icon binance" href="https://www.binance.com/it"></a>
+    </span>
+</div>
+<div class="row" style="margin: -0.5% 2%;">
+    <div class="box1">
+        <div class="text nova-mono">Crypto</div>
+        <div class="text nova-mono">Stocks</div>
+        <div class="text nova-mono">Market</div>
+    </div>
+</div>
+
+<div class="info1">
+    <div>
+        <div class="title nova-mono" style="margin: 0 0 1%;">LEARN TRADING AND STOCKS EASLY,FOR FREE AND FAST</div>
+        <div class="description nova-mono">Learn quickly and efficiently with a guided path to fully understand how to trade correctly, using a simulated budget to track your progress.</div>
+    </div>
+    <div class="grid2x2">
+        <div>
+            <div class="square blue material-symbols-outlined">description</div>
+            <div class="subtitle">fast</div>
+        </div>
+        <div>
+            <div class="square green material-symbols-outlined">joystick</div>
+            <div class="subtitle">easy</div>
+        </div>
+        <div>
+            <div class="square red material-symbols-outlined">network_intelligence</div>
+            <div class="subtitle">smart</div>
+        </div>
+        <div>
+            <div class="square yellow material-symbols-outlined">payments</div>
+            <div class="subtitle">free</div>
+        </div>
+    </div>
+</div>
+
+<div class="info2">
+    <canvas riv="logo_animation" width="200" height="200" class="animation">
+        <riv-state-machine name="State Machine 1" play></riv-state-machine>>
+    </canvas>
+
+    <div>
+        <div class="title nova-mono" style="margin: 0 0 1%;">LEARN HOW THE ECONOMY WORKS</div>
+        <div class="description nova-mono">Through carefully selected questions, designed to make it understandable and easy for everyone, focusing on simplicity.</div>
+    </div>
+</div>
+
+<div class="info1">
+    <div>
+        <div class="title nova-mono" style="margin: 0 0 1%;">LEARN HOW TO MAKE MONEY</div>
+        <div class="description nova-mono">Built using TradingView and Binance’s API to create an interactive quiz that helps you identify patterns and manage a simulated portfolio.</div>
+    </div>
+    <div>
+        <div #chartContainer class="chart-container"></div>
+    </div>
+    
+</div>
+<app-quest-answer></app-quest-answer>
+
+<div class="info2">
+    <canvas riv="to_the_top" width="200" height="200" class="animation">
+        <riv-state-machine name="State Machine 1" play></riv-state-machine>>
+    </canvas>
+
+    <div>
+        <div class="title nova-mono" style="margin: 0 0 1%;">CREATED BASED ON THE BEST BOOKS</div>
+        <div class="description nova-mono">The Barefoot Investor" from Scott Pape</div>
+ 
+<div class="description nova-mono">"How to Make Money in Stocks" di William J. O'Neil </div>
+ 
+<div class="description nova-mono">"Crypto Trading: A Beginner's Guide to Trading Cryptocurrency"
+ di Matthew   Driver</div>
+    </div>
+</div>
+
+<div class="conclusion">
+    <div class="title nova-mono" style="margin: 0 0 1%;">BELIVE IN US</div>
+    <div class="description nova-mono">a nearly new startup, born from Dedication Studio</div>
+</div>

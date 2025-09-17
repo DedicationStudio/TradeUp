@@ -1,0 +1,9 @@
+{
+  "name": "TradeUp",
+  "short_name": "TradeUp",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#317EFB",
+  "icons": []
+}

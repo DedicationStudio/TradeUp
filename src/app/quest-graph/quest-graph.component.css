@@ -1,0 +1,17 @@
+.chart-container {
+    width: 50%;
+    height: 100%;
+    margin:  0 25% 0;
+  }
+
+  :host{
+    z-index: 0;
+  }
+
+  @media (max-width: 768px) {
+    .chart-container {
+      margin: 0 5%;
+      width: 90%; /* per dispositivi mobili */
+    }
+  }
+

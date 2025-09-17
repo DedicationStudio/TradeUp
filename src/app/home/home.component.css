@@ -1,0 +1,13 @@
+:host{
+    display: grid;
+    grid-template-columns: 18% 50% 21%;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 430px) {
+  :host{
+    display: flex;
+    flex-direction: column;
+  }
+}

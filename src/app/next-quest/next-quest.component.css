@@ -1,0 +1,163 @@
+:host{
+    width: 100%;
+    height: 10%;
+    
+}
+
+.main{
+    background-color: #202F36;
+    display: grid;
+    grid-template-columns: 10% 33% 20%;
+    justify-items: center;
+    padding: 0.65% 0;
+    justify-content: center;
+}
+
+.motivation{
+background-color: #37464F;
+    position: absolute;
+    bottom: 100%;
+    margin: 0 20%;
+    padding: 2% 3% 3%;
+    width: 54%;
+}
+
+.next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 11% 0 0%;
+}
+
+.answer{
+    /*margin: 0 21% 0 0;*/
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.comment{
+    font-size: 20px;
+}
+
+.wrong{
+    color: #E13232;
+}
+
+.right{
+    color: #72D627;
+}
+
+.animation{
+    width: 125px;
+}
+
+.why{
+    width: 70px;
+}
+
+.responsive{
+    display: none;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+@media (max-width: 768px) {
+    :host{
+        justify-content: normal;
+        flex-direction: column;
+        margin: 5% 0 0;
+        align-items: flex-start;
+        height: 100%;
+    }
+
+    .answer{
+        margin: 5% 20% 0 5%;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+
+    .comment{
+        font-size: 15px;
+    }
+
+    .animation{
+        width: 300px;
+        margin: 0% 14%;
+    }
+
+
+  }
+
+  @media (max-width: 376px) {
+    .animation{
+        width: 300px;
+        margin: 0% 10%;
+    }
+  }
+
+  
+
+  @media (max-height: 896px){
+    :host{
+        margin: 12% 0 0;
+    }
+  }
+
+  @media (max-height: 740px){
+    :host{
+        margin: 15% 0 0;
+    }
+  }
+
+  @media (max-height: 667px){
+    :host{
+        margin: 0 0;
+    }
+  }
+
+
+@media (max-width: 430px) {
+.motivation{
+    background-color: #37464F;
+    position: absolute;
+    bottom: 100%;
+    /* margin: 0 20%; */
+    padding: 5% 5% 10%;
+    width: 100%;
+    margin: 0;
+}
+
+.responsive{
+    display: block;
+}
+
+.non-responsive{
+    display: none;
+}
+
+.animation{
+    margin: 0;
+    height: 65px;
+}
+
+.answer{
+    width: 85%;
+    margin: 5% 5% 0 10%;
+}
+}
+
+

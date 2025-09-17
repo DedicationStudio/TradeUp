@@ -1,0 +1,12 @@
+
+
+<div class="text">What’s your daily learning goal???</div>
+
+<div class="boxes">
+    @for (data of from; track $index) {
+        <div class="box" (click)="categoryOutput(data.achive, $index)" [ngClass]="{'focus': selected == $index}">
+                <div class="category">{{data.achive}}</div>
+                <div class="category">{{data.type}}</div>
+        </div>
+    }
+</div>

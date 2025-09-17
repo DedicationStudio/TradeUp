@@ -1,0 +1,70 @@
+
+<header>
+    <div class="data">
+        <div class="image" style="background-image: url('../../assets/image/cripto.png');"></div>
+        <div class="learning">{{learning}}</div>
+    </div>
+
+    <div class="data">
+        <div class="image" style="background-image: url('../../assets/image/firebase-icon.png');"></div>
+        <div class="learning" [ngClass]="{'streak': streak>0, 'stopped': streak==0}">{{streak}}</div>
+    </div>
+
+    <div class="data">
+        <div class="image" style="background-image: url('../../assets/image/gemini-icon.png');"></div>
+        <div class="coin learning">{{coin}}</div>
+    </div>
+
+    <div class="data heart">
+        <!--<div class="image" style="background-image: url('../../assets/image/7631e3ee734dd4fe7792626b59457fa4.svg');"></div>
+        <div class="hearts learning">{{hearts}}</div>-->
+    </div>
+
+</header>
+
+<div class="section">
+    <div class="bank-info">
+        <div class="text">Balance: <span class="worth" [ngClass]="{'loss': percent<0}">{{money}}$</span></div>
+        <div class="percent worth" [ngClass]="{'loss': percent<0}">{{show_percent}}%</div>
+    </div>
+    
+<canvas
+  baseChart
+  [type]="'line'"
+  [data]="lineChartData"
+  [options]="lineChartOptions">
+</canvas>
+
+</div>
+<!--
+<div class="section">
+    <div class="leaderboard">
+        <div class="line">
+            <div class="image status" style="background-image: url(../../assets/image/increase.jpg);"></div>
+            <span class="material-symbols-outlined">shield</span>
+            <div class="position">{{position}}</div>
+            <div class="username">{{username}}</div>
+        </div>
+
+        <span class="material-symbols-outlined">award_star</span>
+    </div>
+</div>
+
+<div class="section">
+    <div class="text" style="margin: 1% 2%;">Quest</div>
+    @for (mission of missions; track $index) {
+
+        <div class="mission">
+            <div>
+                <div class="progressBar">
+                    <div class="progress" [style.width] = "mission.progress"></div>
+                </div>
+                <div class="description">{{mission.description}}</div>
+            </div>
+            <div class="icon">
+                <span class="material-symbols-outlined">{{mission.emoji}}</span>
+            </div>
+        </div>
+    }
+
+</div>-->

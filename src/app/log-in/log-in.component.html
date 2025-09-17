@@ -1,0 +1,34 @@
+<div class="header">
+
+    <div class="logo" routerLink="/">
+        Trade Up
+    </div>
+
+    <div class="subscribe" routerLink="/subscribe">
+        Subscribe
+    </div>
+</div>
+
+<div class="title">Log to your Account</div>
+
+<div class="error">{{errorAccount}}</div>
+<input type="email" class="input" [ngClass]="{'selected': email!=null}" placeholder="Email" maxlength="99" [(ngModel)]="email" (input)="onSubscription()">
+<div class="error">{{errorPassword}}</div>
+<div class="row">
+    <input [type]="showPassword ? 'text' : 'password'" class="password" [ngClass]="{'selected': password!=null}" placeholder="Password" maxlength="99" [(ngModel)]="password" (input)="onSubscription()">
+    <span class="material-symbols-outlined" (click)="viewing()">{{view}}</span>
+</div>
+
+
+<div class="next" [ngClass]="{'available': avaiable}" (click)="next()">LOG IN</div>
+<!--<div class="row division">
+    <div class="line"></div>
+    <div class="separetor">OR</div>
+    <div class="line"></div>
+</div>
+
+<div class="row google" (click)="loginWithGoogle()">
+    <div class="image"></div>
+</div>-->
+
+<div class="center">This site is protected by <span class="bolder">reCAPTCHA Enterprise</span> and the <a href="https://policies.google.com/privacy"><span class="bolder">Google Privacy Policy</span> and the <span class="bolder">Terms of Service</span></a> apply</div>

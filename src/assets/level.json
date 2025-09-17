@@ -1,0 +1,80 @@
+[
+  [
+    {
+      "icon": "joystick",
+      "title": "Into the Topic",
+      "state": "success",
+      "progress": "100%",
+      "type": "level",
+      "color": "#2787D6",
+      "phase": 1,
+      "total": 1
+    }
+  ],
+  [
+    {
+      "icon": "subtitles",
+      "title": "General Knowledge",
+      "state": "in progress",
+      "progress": "66%",
+      "type": "level",
+      "color": "#586771",
+      "phase": 1,
+      "total": 3
+    },
+    {
+      "icon": "joystick",
+      "title": "Tutorial",
+      "state": "failed",
+      "progress": "50%",
+      "type": "level",
+      "color": "#586771",
+      "phase": 2,
+      "total": 3
+    },
+    {
+      "icon": "candlestick_chart",
+      "title": "How to Start",
+      "state": "success",
+      "progress": "100%",
+      "type": "level",
+      "color": "#2787D6",
+      "phase": 3,
+      "total": 3
+    }
+  ],
+  [
+    {
+      "icon": "book",
+      "title": "By the Book",
+      "state": "in progress",
+      "progress": "33%",
+      "type": "level",
+      "color": "#586771",
+      "phase": 1,
+      "total": 2
+    },
+    {
+      "icon": "assignment",
+      "title": "Step By Step",
+      "state": "success",
+      "progress": "100%",
+      "type": "level",
+      "color": "#FF4B4B",
+      "phase": 2,
+      "total": 2
+    }
+  ],
+  [
+    {
+      "icon": "description",
+      "title": "Test",
+      "state": "failed",
+      "progress": "75%",
+      "type": "test",
+      "color": "#1F1F1F",
+      "phase": 1,
+      "total": 1
+    }
+  ]
+]

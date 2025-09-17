@@ -1,0 +1,12 @@
+<div class="title">How old are you???</div>
+
+<input type="text" class="age" [ngClass]="{'selected': age!=null}" placeholder="Age" maxlength="3" [(ngModel)]="age" (input)="onAgeInput()">
+<div class="text">
+    Providing your age ensure the right Experience. 
+    for more details please visit our 
+    <a class="link" href="../../assets/privacy/Privacy Policy.pdf">Privacy Policy</a>
+</div>
+
+<div class="next" [ngClass]="{'available': avaiable}" (click)="next()">NEXT</div>
+<div class="center">By singing in to Trade Up, you agree our <span class="bolder">Terms and Privacy Policy</span>.</div>
+<div class="center">This site is protected by <span class="bolder">reCAPTCHA Enterprise</span> and the <span class="bolder">Google Privacy Policy</span> and the <span class="bolder">Terms of Service</span> apply</div>

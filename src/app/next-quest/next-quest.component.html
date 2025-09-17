@@ -1,0 +1,126 @@
+@if(why==true){
+<div class="motivation">
+    <div class="title" [ngClass]="{'right': answer==1, 'wrong': answer != 1}">{{title}}</div>
+    {{description}}
+</div>
+}
+
+<div class="main non-responsive">
+    @if (answer == 1) {
+                <canvas [riv]="right_why"  width="200" [height]="height" class="why"  
+                (mousedown)="pressed_why()" 
+                (mouseup)="released_why()" 
+                (mouseleave)="released_why()"
+                (touchstart)="pressed_why()" 
+                (touchend)="released_why()" 
+                (touchcancel)="released_why()">
+                  <riv-state-machine name="State Machine 1" play>
+                      <riv-input name="pushing" [value]="pushing_why"></riv-input>
+                  </riv-state-machine>
+                </canvas>
+            }@else {
+                <canvas [riv]="wrong_why"  width="200" [height]="height" class="why" 
+                (mousedown)="pressed_why()" 
+                (mouseup)="released_why()" 
+                (mouseleave)="released_why()"
+                (touchstart)="pressed_why()" 
+                (touchend)="released_why()" 
+                (touchcancel)="released_why()">
+                  <riv-state-machine name="State Machine 1" play>
+                      <riv-input name="pushing" [value]="pushing_why"></riv-input>
+                  </riv-state-machine>
+                </canvas>
+            }
+        <div class="answer">
+            <div class="title" [ngClass]="{'right': answer==1, 'wrong': answer != 1}">{{title}}</div>
+            <div class="comment" [ngClass]="{'right': answer==1, 'wrong': answer != 1}">{{short}}</div>
+        </div>
+            @if (answer == 1) {
+                <canvas [riv]="right"  width="300" [height]="height" class="animation" 
+                 
+                (mousedown)="pressed()" 
+                (mouseup)="released()" 
+                (mouseleave)="released()"
+                (touchstart)="pressed()" 
+                (touchend)="released()" 
+                (touchcancel)="released()">
+                  <riv-state-machine name="State Machine 1" play>
+                      <riv-input name="pushing" [value]="pushing"></riv-input>
+                  </riv-state-machine>
+                </canvas>
+            }@else {
+                <canvas [riv]="wrong"  width="300" [height]="height" class="animation"
+                (mousedown)="pressed()" 
+                (mouseup)="released()" 
+                (mouseleave)="released()"
+                (touchstart)="pressed()" 
+                (touchend)="released()" 
+                (touchcancel)="released()">
+                  <riv-state-machine name="State Machine 1" play>
+                      <riv-input name="pushing" [value]="pushing"></riv-input>
+                  </riv-state-machine>
+                </canvas>
+            }
+            
+        </div>    
+        
+        
+<div class="main responsive">
+    <div class="answer">
+        <div class="title" [ngClass]="{'right': answer==1, 'wrong': answer != 1}">{{title}}</div>
+        <div class="comment" [ngClass]="{'right': answer==1, 'wrong': answer != 1}">{{short}}</div>
+    </div>
+    <div class="row">
+            @if (answer == 1) {
+                <canvas [riv]="responsive_right_why"  width="200" height="200" class="why"  
+                (mousedown)="pressed_why()" 
+                (mouseup)="released_why()" 
+                (mouseleave)="released_why()"
+                (touchstart)="pressed_why()" 
+                (touchend)="released_why()" 
+                (touchcancel)="released_why()">
+                  <riv-state-machine name="State Machine 1" play>
+                      <riv-input name="pushing" [value]="pushing_why"></riv-input>
+                  </riv-state-machine>
+                </canvas>
+            }@else {
+                <canvas [riv]="responsive_wrong_why" width="200" height="200" class="why" 
+                (mousedown)="pressed_why()" 
+                (mouseup)="released_why()" 
+                (mouseleave)="released_why()"
+                (touchstart)="pressed_why()" 
+                (touchend)="released_why()" 
+                (touchcancel)="released_why()">
+                  <riv-state-machine name="State Machine 1" play>
+                      <riv-input name="pushing" [value]="pushing_why"></riv-input>
+                  </riv-state-machine>
+                </canvas>
+            }
+            @if (answer == 1) {
+                <canvas [riv]="right"  width="460" [height]="height" class="animation" 
+                 
+                (mousedown)="pressed()" 
+                (mouseup)="released()" 
+                (mouseleave)="released()"
+                (touchstart)="pressed()" 
+                (touchend)="released()" 
+                (touchcancel)="released()">
+                  <riv-state-machine name="State Machine 1" play>
+                      <riv-input name="pushing" [value]="pushing"></riv-input>
+                  </riv-state-machine>
+                </canvas>
+            }@else {
+                <canvas [riv]="wrong"  width="460" [height]="height" class="animation"
+                (mousedown)="pressed()" 
+                (mouseup)="released()" 
+                (mouseleave)="released()"
+                (touchstart)="pressed()" 
+                (touchend)="released()" 
+                (touchcancel)="released()">
+                  <riv-state-machine name="State Machine 1" play>
+                      <riv-input name="pushing" [value]="pushing"></riv-input>
+                  </riv-state-machine>
+                </canvas>
+            }
+    </div>
+</div>

@@ -1,0 +1,67 @@
+:host{
+    display: flex;
+    background-color: #202F36;
+    max-width: 50%;
+    min-width: 35%;
+    padding: 1% 1.1%;
+    margin: 0 25% 1.5%;
+    width: 35%;
+    align-items: center;
+}
+
+.option{
+    margin: 0.1% 0 0 5%;
+    font-weight: 500;
+}
+
+.icon{
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+user-select: none;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 100,
+  'opsz' 24
+
+}
+
+.checked{
+    font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 100,
+  'opsz' 24
+}
+
+.icon:hover{
+  cursor: pointer;
+  
+
+}
+
+.correct{
+  color: #93D333;
+      font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 100,
+  'opsz' 24
+}
+
+@media (max-width: 430px) {
+:host{
+  display: flex
+;
+    background-color: #202F36;
+    padding: 3% 1.1%;
+    margin: 4.5% 4% 1.5%;
+    width: 92%;
+    align-items: center;
+    max-width: 100%;
+}
+
+.icon{
+  margin: 0 2%;
+}
+}
