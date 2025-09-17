@@ -1,0 +1,114 @@
+I decided to take part in this course because I had never done well in school… at least not until middle school. But everything changed when I started high school. Now, I'm about to graduate with an average grade of nine out of ten, going from a six to a nine.
+I don’t really believe in second chances, but I do believe that anyone can achieve anything; because if I could do it, anyone can.
+One thing I truly dislike is ignorance, especially because nowadays it often comes from laziness. The internet gives us access to almost everything, so ignorance is often a choice. Wanting more, I became interested in learning about the economic system and trading, which made me realize how wrong I was before.
+As I tried to learn, I discovered that there isn’t a real place to do so. Everyone seems to have their own opinion, and that leads to confusion. I came across many people who were completely unaware of the basics, and that really bothered me. That’s why I decided to create this app:
+To give people a second chance.
+To provide new insights to those who already know a bit, and fresh knowledge to those starting from scratch.
+It’s a learning app based on a gamified system, similar to Duolingo. One that manages content seriously and professionally for traders, but is simple and enjoyable for anyone wanting to learn how the economic system works.
+The app will include leaderboards to challenge friends and strangers, missions to earn rewards, and streaks to encourage consistency and perseverance.
+
+Link to the website: https://tradeup-f4d91.web.app/
+
+HOW THE APPLICATION WORKS
+
+The app is designed to teach the basics and advanced concepts of trading through an interactive, modular, and gamified experience. At the core of the app are progressive courses, personalized leaderboards, daily missions, and an adaptive difficulty system that makes the experience personalized and engaging.
+
+--- Phase 1 – Initial onboarding and registration ---
+
+The user is asked some questions to better position them within the learning path. This level will guide the type of exercises and the difficulty of the first contents shown.
+
+The user then proceeds with registration, providing:
+- Username
+- Email
+- Password
+- Phone number (optional, used to find friends on the app)
+
+At the end of registration, the user receives:
+- 100 virtual dollars, usable within the platform
+- An initial position in a personalized leaderboard (15–30 users), divided by levels: Beginner, Learner, Trader, Expert
+- A first set of coins or gems (the app’s currency)
+- Daily streak, initialized at 0 and increasing every day of consecutive use
+
+--- Phase 2 – Navigation and home structure ---
+
+After registration, the user accesses the app’s main screen. Here, they find a series of scrollable sections, each dedicated to a specific trading topic (e.g., technical analysis, risk management, trading psychology...).
+
+Each section is made up of 6 levels, each focused on micro-topics. Levels contain 7 to 15 exercises each, which must be completed and repeated 3–5 times to be considered completed. A level is considered “completed” only if the majority of attempts are successful. At that point, the section may turn blue (success) or red (failure) depending on overall performance.
+
+--- Phase 3 – Course structure and contents ---
+
+The app starts with three main courses, each with a different approach and a distinct set of topics. However, the entire structure is designed to be extendable, so new courses can be added in the future without changing the existing logic.
+
+Each course contains:
+- Multiple thematic sections (scrollable on the home screen)
+- Each section → 6 levels
+- Each level → 7–15 exercises
+- Each exercise is adapted based on the user’s difficulty level, calculated on a scale of 1 to 10, updated dynamically
+
+--- Phase 4 – Types of exercises ---
+
+At the moment, two types of exercises are planned:
+- Multiple-choice quizzes: question + 3 (or more) options
+- Trading chart exercises: the user must decide whether to enter long or short and identify market patterns
+
+Each exercise can contain text, images, or both, and is saved in a flexible format to easily allow the introduction of new types in the future. Each exercise includes:
+- The question
+- Answer options (when applicable)
+- The correct answer
+- A difficulty level from 1 to 10
+- A “Why?” feedback system, showing a short explanation in case of an error, with the possibility to dive deeper through images and extra texts
+
+If the user makes a mistake, they lose a life. Lives regenerate over time. When they run out, the user can:
+- Wait (cooldown)
+- Repeat already completed exercises (in the initial phase)
+- Buy lives with coins
+
+👉 In the current version, instead of lives, the user can make a total of 5 mistakes before failing the level. Each level has a progress system, so to complete it, the user must repeat it 3 times, and if most attempts fail, they are forced to start the entire level over from scratch.
+
+--- Phase 5 – Personalization and adaptive system ---
+
+Each user has a profile containing:
+- ID, username, email, phone (optional), password
+- Profile picture
+- Budget (virtual dollars)
+- Coins/gems
+- Lives (with time-based regeneration)
+- Consecutive activity days (streak)
+- An internal performance indicator, used to adjust the difficulty of exercises
+
+--- Future developments ---
+
+The app assigns each user a restricted, personalized leaderboard of 15 to 30 people, based on:
+- Score
+- Level
+- Phone contacts with other registered users
+- Mutual friends
+
+--- Phase 6 – Missions and rewards ---
+
+Missions are dynamic objectives assigned to users to stimulate progress. They may concern:
+- Streaks
+- Section completion
+- Level completion
+
+Each mission has:
+- An icon
+- A color
+- A description
+- A target objective
+- A current progress value
+- A reward (coins, lives, bonuses...)
+
+Each user has missions assigned from a missions table, with individual progress tracking.
+
+--- Phase 7 – Shop and purchase system ---
+
+Users can spend coins/gems to purchase items in the shop, such as:
+- Streak skips
+- Mission changes
+- Life refills
+
+Each purchase is recorded in a table with:
+- Item name
+- Quantity
+- Associated user
